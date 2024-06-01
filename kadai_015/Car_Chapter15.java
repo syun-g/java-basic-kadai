@@ -9,7 +9,7 @@ public class Car_Chapter15 {
 
 	public void gearChange(int afterGear){
 		
-
+		System.out.println("ギア" + gear + "から" + afterGear + "に切り替えました");
     //gearの値で速度変換
 		
 		gear = afterGear;
@@ -35,8 +35,7 @@ public class Car_Chapter15 {
 		//1-5意外のギア
 		else {speed = 10;
 		}
-      
-		System.out.println("ギア" + 1 + "から" + afterGear + "に切り替えました");
+     
 	}
 	    
 	public void run() {	
